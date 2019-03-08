@@ -1,0 +1,8 @@
+unit Click_Lin_Hall_config;
+
+uses Click_Lin_Hall_types;
+
+const
+    _LINHALL_SPI_CFG : array[3] of uint32_t = (_SPI_MASTER, _SPI_FCY_DIV32, _SPI_CLK_LO_LEADING); 
+    
+end.
